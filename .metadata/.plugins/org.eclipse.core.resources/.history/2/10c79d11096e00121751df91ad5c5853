@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="@dimen/key_height">
+
+    <Row>
+        <Key android:codes="1110" android:keyLabel="ق" android:keyOutputText="ق" android:keyEdgeFlags="left"/>
+        <Key android:codes="1111" android:keyLabel="غ" android:keyOutputText="غ"/>
+        <Key android:codes="1112" android:keyLabel="ع" android:keyOutputText="ع"/>
+        <Key android:codes="1113" android:keyLabel="ي" android:keyOutputText="ي"/>
+        <Key android:codes="1114" android:keyLabel="ة" android:keyOutputText="ة"/>
+        <Key android:codes="1115" android:keyLabel="ف" android:keyOutputText="ف"/>
+        <Key android:codes="1116" android:keyLabel="ط" android:keyOutputText="ط"/>
+        <Key android:codes="1117" android:keyLabel="ر" android:keyOutputText="ر"/>
+        <Key android:codes="1118" android:keyLabel="ص" android:keyOutputText="ص"/>
+        <Key android:codes="1119" android:keyLabel="ب" android:keyOutputText="ب"/>
+        <Key android:codes="1120" android:keyLabel="ش" android:keyOutputText="ش" android:keyEdgeFlags="right"/>
+        
+    </Row>
+    
+    <Row>
+        <Key android:codes="1122" android:keyLabel="ه" android:keyOutputText="ه" android:keyEdgeFlags="left"/>
+        <Key android:codes="1123" android:keyLabel="ج" android:keyOutputText="ج"/>
+        <Key android:codes="1124" android:keyLabel="ك" android:keyOutputText="ك"/>
+        <Key android:codes="1125" android:keyLabel="ا" android:keyOutputText="ا"/>
+        <Key android:codes="1126" android:keyLabel="و" android:keyOutputText="و"/>
+        <Key android:codes="1127" android:keyLabel="ت" android:keyOutputText="ت"/>
+        <Key android:codes="1128" android:keyLabel="د" android:keyOutputText="د"/>
+        <Key android:codes="1129" android:keyLabel="ل" android:keyOutputText="ل"/>
+        <Key android:codes="1130" android:keyLabel="ن" android:keyOutputText="ن"/>
+        <Key android:codes="1131" android:keyLabel="م" android:keyOutputText="م"/>
+        <Key android:codes="1132" android:keyLabel="س" android:keyOutputText="س" android:keyEdgeFlags="right"/>
+    </Row>
+    
+    <Row>
+        <Key android:codes="1142" android:keyLabel="ض" android:keyOutputText="ض" android:keyEdgeFlags="left"/>
+        <Key android:codes="1133" android:keyLabel="خ" android:keyOutputText="خ"/>
+        <Key android:codes="1134" android:keyLabel="ى" android:keyOutputText="ى"/>
+        <Key android:codes="1135" android:keyLabel="إ" android:keyOutputText="إ"/>
+        <Key android:codes="1136" android:keyLabel="أ" android:keyOutputText="أ"/>
+        <Key android:codes="1137" android:keyLabel="ح" android:keyOutputText="ح"/>
+        <Key android:codes="1138" android:keyLabel="ئ" android:keyOutputText="ئ"/>
+        <Key android:codes="1139" android:keyLabel="ز" android:keyOutputText="ز"/>
+        <Key android:codes="1140" android:keyLabel="ث" android:keyOutputText="ث"/>
+        <Key android:codes="1141" android:keyLabel="ذ" android:keyOutputText="ذ"/>
+        <Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_delete" 
+                android:keyWidth="15%p" android:keyEdgeFlags="right"
+                android:isRepeatable="true"/>
+    </Row>
+    
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="-3" android:keyIcon="@drawable/sym_keyboard_done" 
+                android:keyWidth="15%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="-2" android:keyLabel="123" android:keyWidth="15%p"/>
+        <Key android:codes="32" android:keyIcon="@drawable/sym_keyboard_space" 
+                android:keyWidth="20%p" android:isRepeatable="true"/>
+        <Key android:codes="46,44" android:keyLabel=". ,"
+                android:keyWidth="10%p"/>
+        <Key android:codes="1144" android:keyLabel="ء" android:keyOutputText="ء"/>
+        <Key android:codes="1145" android:keyLabel="ٶ" android:keyOutputText="ٶ"/>
+        <Key android:codes="1146" android:keyLabel="ظ" android:keyOutputText="ظ"/>
+        <Key android:codes="10" android:keyIcon="@drawable/sym_keyboard_return" 
+                android:keyWidth="20%p" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>
+    

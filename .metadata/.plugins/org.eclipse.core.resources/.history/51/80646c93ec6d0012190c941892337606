@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* 
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+-->
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="@dimen/key_height"
+    >
+
+    <Row>
+        <Key android:codes="0642" android:keyLabel="0642" android:keyEdgeFlags="left"/>
+        <Key android:codes="063A" android:keyLabel="063A"/>
+        <Key android:codes="0639" android:keyLabel="0639"/>
+        <Key android:codes="064A" android:keyLabel="064A"/>
+        <Key android:codes="0629" android:keyLabel="0629"/>
+        <Key android:codes="0641" android:keyLabel="0641"/>
+        <Key android:codes="0637" android:keyLabel="0637"/>
+        <Key android:codes="0631" android:keyLabel="0631"/>
+        <Key android:codes="0635" android:keyLabel="0635"/>
+        <Key android:codes="0628" android:keyLabel="0628"/>
+        <Key android:codes="0634" android:keyLabel="0634"/>
+        <Key android:codes="0636" android:keyLabel="0636" android:keyEdgeFlags="right"/>
+    </Row>
+    
+    <Row>
+        <Key android:codes="0647" android:keyLabel="0647" android:horizontalGap="5%p" 
+                android:keyEdgeFlags="left"/>
+        <Key android:codes="062C" android:keyLabel="062C"/>
+        <Key android:codes="0643" android:keyLabel="0643"/>
+        <Key android:codes="0627" android:keyLabel="0627"/>
+        <Key android:codes="0648,0676" android:keyLabel="0648 0676"/>
+        <Key android:codes="062A" android:keyLabel="062A"/>
+        <Key android:codes="062F" android:keyLabel="062F"/>
+        <Key android:codes="0644" android:keyLabel="0644"/>
+        <Key android:codes="0646" android:keyLabel="0646"/>
+        <Key android:codes="0645" android:keyLabel="0645"/>
+        <Key android:codes="0633" android:keyLabel="0633" android:keyEdgeFlags="right"/>
+    </Row>
+    
+    <Row>
+        <Key android:codes="-1" android:keyIcon="@drawable/sym_keyboard_shift" 
+                android:keyWidth="15%p" android:isModifier="true"
+                android:isSticky="true" android:keyEdgeFlags="left"/>
+        <Key android:codes="062E" android:keyLabel="062E"/>
+        <Key android:codes="0649" android:keyLabel="0649"/>
+        <Key android:codes="0625" android:keyLabel="0625"/>
+        <Key android:codes="0623,0621" android:keyLabel="0623 0621"/>
+        <Key android:codes="062D" android:keyLabel="062D"/>
+        <Key android:codes="0626" android:keyLabel="0626"/>
+        <Key android:codes="0632" android:keyLabel="0632"/>
+        <Key android:codes="062B" android:keyLabel="062B"/>
+        <Key android:codes="0630" android:keyLabel="0630"/>
+        <Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_delete" 
+                android:keyWidth="15%p" android:keyEdgeFlags="right"
+                android:isRepeatable="true"/>
+    </Row>
+    
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="-3" android:keyIcon="@drawable/sym_keyboard_done" 
+                android:keyWidth="20%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="-2" android:keyLabel="123" android:keyWidth="15%p"/>
+        <Key android:codes="32" android:keyIcon="@drawable/sym_keyboard_space" 
+                android:keyWidth="30%p" android:isRepeatable="true"/>
+        <Key android:codes="46,44" android:keyLabel=". ,"
+                android:keyWidth="15%p"/>
+        <Key android:codes="10" android:keyIcon="@drawable/sym_keyboard_return" 
+                android:keyWidth="20%p" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>
+    
